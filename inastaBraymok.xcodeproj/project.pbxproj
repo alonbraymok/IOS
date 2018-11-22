@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8425F22B21A6980400910388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F22A21A6980400910388 /* AppDelegate.swift */; };
+		8425F22D21A6980400910388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F22C21A6980400910388 /* ViewController.swift */; };
+		8425F23021A6980400910388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425F22E21A6980400910388 /* Main.storyboard */; };
+		8425F23221A6980600910388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425F23121A6980600910388 /* Assets.xcassets */; };
+		8425F23521A6980600910388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425F23321A6980600910388 /* LaunchScreen.storyboard */; };
+		8425F24021A6980600910388 /* inastaBraymokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F23F21A6980600910388 /* inastaBraymokTests.swift */; };
+		8425F24B21A6980600910388 /* inastaBraymokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F24A21A6980600910388 /* inastaBraymokUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8425F23C21A6980600910388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8425F21F21A6980400910388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8425F22621A6980400910388;
+			remoteInfo = inastaBraymok;
+		};
+		8425F24721A6980600910388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8425F21F21A6980400910388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8425F22621A6980400910388;
+			remoteInfo = inastaBraymok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8425F22721A6980400910388 /* inastaBraymok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inastaBraymok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425F22A21A6980400910388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8425F22C21A6980400910388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8425F22F21A6980400910388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8425F23121A6980600910388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8425F23421A6980600910388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8425F23621A6980600910388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425F23B21A6980600910388 /* inastaBraymokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inastaBraymokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425F23F21A6980600910388 /* inastaBraymokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inastaBraymokTests.swift; sourceTree = "<group>"; };
+		8425F24121A6980600910388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425F24621A6980600910388 /* inastaBraymokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inastaBraymokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425F24A21A6980600910388 /* inastaBraymokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inastaBraymokUITests.swift; sourceTree = "<group>"; };
+		8425F24C21A6980600910388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8425F22421A6980400910388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425F23821A6980600910388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425F24321A6980600910388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8425F21E21A6980400910388 = {
+			isa = PBXGroup;
+			children = (
+				8425F22921A6980400910388 /* inastaBraymok */,
+				8425F23E21A6980600910388 /* inastaBraymokTests */,
+				8425F24921A6980600910388 /* inastaBraymokUITests */,
+				8425F22821A6980400910388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8425F22821A6980400910388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8425F22721A6980400910388 /* inastaBraymok.app */,
+				8425F23B21A6980600910388 /* inastaBraymokTests.xctest */,
+				8425F24621A6980600910388 /* inastaBraymokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8425F22921A6980400910388 /* inastaBraymok */ = {
+			isa = PBXGroup;
+			children = (
+				8425F22A21A6980400910388 /* AppDelegate.swift */,
+				8425F22C21A6980400910388 /* ViewController.swift */,
+				8425F22E21A6980400910388 /* Main.storyboard */,
+				8425F23121A6980600910388 /* Assets.xcassets */,
+				8425F23321A6980600910388 /* LaunchScreen.storyboard */,
+				8425F23621A6980600910388 /* Info.plist */,
+			);
+			path = inastaBraymok;
+			sourceTree = "<group>";
+		};
+		8425F23E21A6980600910388 /* inastaBraymokTests */ = {
+			isa = PBXGroup;
+			children = (
+				8425F23F21A6980600910388 /* inastaBraymokTests.swift */,
+				8425F24121A6980600910388 /* Info.plist */,
+			);
+			path = inastaBraymokTests;
+			sourceTree = "<group>";
+		};
+		8425F24921A6980600910388 /* inastaBraymokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8425F24A21A6980600910388 /* inastaBraymokUITests.swift */,
+				8425F24C21A6980600910388 /* Info.plist */,
+			);
+			path = inastaBraymokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8425F22621A6980400910388 /* inastaBraymok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8425F24F21A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymok" */;
+			buildPhases = (
+				8425F22321A6980400910388 /* Sources */,
+				8425F22421A6980400910388 /* Frameworks */,
+				8425F22521A6980400910388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inastaBraymok;
+			productName = inastaBraymok;
+			productReference = 8425F22721A6980400910388 /* inastaBraymok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8425F23A21A6980600910388 /* inastaBraymokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8425F25221A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymokTests" */;
+			buildPhases = (
+				8425F23721A6980600910388 /* Sources */,
+				8425F23821A6980600910388 /* Frameworks */,
+				8425F23921A6980600910388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8425F23D21A6980600910388 /* PBXTargetDependency */,
+			);
+			name = inastaBraymokTests;
+			productName = inastaBraymokTests;
+			productReference = 8425F23B21A6980600910388 /* inastaBraymokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8425F24521A6980600910388 /* inastaBraymokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8425F25521A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymokUITests" */;
+			buildPhases = (
+				8425F24221A6980600910388 /* Sources */,
+				8425F24321A6980600910388 /* Frameworks */,
+				8425F24421A6980600910388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8425F24821A6980600910388 /* PBXTargetDependency */,
+			);
+			name = inastaBraymokUITests;
+			productName = inastaBraymokUITests;
+			productReference = 8425F24621A6980600910388 /* inastaBraymokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8425F21F21A6980400910388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					8425F22621A6980400910388 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8425F23A21A6980600910388 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8425F22621A6980400910388;
+					};
+					8425F24521A6980600910388 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8425F22621A6980400910388;
+					};
+				};
+			};
+			buildConfigurationList = 8425F22221A6980400910388 /* Build configuration list for PBXProject "inastaBraymok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8425F21E21A6980400910388;
+			productRefGroup = 8425F22821A6980400910388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8425F22621A6980400910388 /* inastaBraymok */,
+				8425F23A21A6980600910388 /* inastaBraymokTests */,
+				8425F24521A6980600910388 /* inastaBraymokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8425F22521A6980400910388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425F23521A6980600910388 /* LaunchScreen.storyboard in Resources */,
+				8425F23221A6980600910388 /* Assets.xcassets in Resources */,
+				8425F23021A6980400910388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425F23921A6980600910388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425F24421A6980600910388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8425F22321A6980400910388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425F22D21A6980400910388 /* ViewController.swift in Sources */,
+				8425F22B21A6980400910388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425F23721A6980600910388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425F24021A6980600910388 /* inastaBraymokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8425F24221A6980600910388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425F24B21A6980600910388 /* inastaBraymokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8425F23D21A6980600910388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8425F22621A6980400910388 /* inastaBraymok */;
+			targetProxy = 8425F23C21A6980600910388 /* PBXContainerItemProxy */;
+		};
+		8425F24821A6980600910388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8425F22621A6980400910388 /* inastaBraymok */;
+			targetProxy = 8425F24721A6980600910388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8425F22E21A6980400910388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8425F22F21A6980400910388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8425F23321A6980600910388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8425F23421A6980600910388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8425F24D21A6980600910388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8425F24E21A6980600910388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8425F25021A6980600910388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inastaBraymok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8425F25121A6980600910388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inastaBraymok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8425F25321A6980600910388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inastaBraymokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inastaBraymok.app/inastaBraymok";
+			};
+			name = Debug;
+		};
+		8425F25421A6980600910388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inastaBraymokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inastaBraymok.app/inastaBraymok";
+			};
+			name = Release;
+		};
+		8425F25621A6980600910388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inastaBraymokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inastaBraymok;
+			};
+			name = Debug;
+		};
+		8425F25721A6980600910388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inastaBraymokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inastaBraymok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8425F22221A6980400910388 /* Build configuration list for PBXProject "inastaBraymok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425F24D21A6980600910388 /* Debug */,
+				8425F24E21A6980600910388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8425F24F21A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425F25021A6980600910388 /* Debug */,
+				8425F25121A6980600910388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8425F25221A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425F25321A6980600910388 /* Debug */,
+				8425F25421A6980600910388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8425F25521A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8425F25621A6980600910388 /* Debug */,
+				8425F25721A6980600910388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8425F21F21A6980400910388 /* Project object */;
+}
