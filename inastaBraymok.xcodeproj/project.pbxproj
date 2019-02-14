@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CB810FF8CA8A4650728D179 /* Pods_inastaBraymokTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAB5867BCD1C1B117C81E30 /* Pods_inastaBraymokTests.framework */; };
+		840E0C1621A93DF300ECD8F8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E0C1521A93DF300ECD8F8 /* User.swift */; };
 		8425F22B21A6980400910388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F22A21A6980400910388 /* AppDelegate.swift */; };
 		8425F22D21A6980400910388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F22C21A6980400910388 /* ViewController.swift */; };
 		8425F23021A6980400910388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425F22E21A6980400910388 /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		8425F23521A6980600910388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425F23321A6980600910388 /* LaunchScreen.storyboard */; };
 		8425F24021A6980600910388 /* inastaBraymokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F23F21A6980600910388 /* inastaBraymokTests.swift */; };
 		8425F24B21A6980600910388 /* inastaBraymokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F24A21A6980600910388 /* inastaBraymokUITests.swift */; };
+		8425F25921A698C500910388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8425F25821A698C500910388 /* GoogleService-Info.plist */; };
+		8425F26021A6A17300910388 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F25F21A6A17300910388 /* ProfileVC.swift */; };
+		8425F26221A6A22300910388 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F26121A6A22300910388 /* SignUpVC.swift */; };
+		8425F26421A6E17C00910388 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425F26321A6E17C00910388 /* TabBarViewController.swift */; };
+		DD3611D64F18D4009B98B765 /* Pods_inastaBraymokUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E6D837B14B51D4E3341A76 /* Pods_inastaBraymokUITests.framework */; };
+		EEE7E9CA61AB06296C6EF1D5 /* Pods_inastaBraymok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22601CB83B4D2D271F6EE0DB /* Pods_inastaBraymok.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22601CB83B4D2D271F6EE0DB /* Pods_inastaBraymok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inastaBraymok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E6D837B14B51D4E3341A76 /* Pods_inastaBraymokUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inastaBraymokUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EF0109C47D5A2CB4E4696 /* Pods-inastaBraymokUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inastaBraymokUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inastaBraymokUITests/Pods-inastaBraymokUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F79143BE4533A19F0050691 /* Pods-inastaBraymokUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inastaBraymokUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-inastaBraymokUITests/Pods-inastaBraymokUITests.release.xcconfig"; sourceTree = "<group>"; };
+		840E0C1521A93DF300ECD8F8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8425F22721A6980400910388 /* inastaBraymok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inastaBraymok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8425F22A21A6980400910388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8425F22C21A6980400910388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		8425F24621A6980600910388 /* inastaBraymokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inastaBraymokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8425F24A21A6980600910388 /* inastaBraymokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inastaBraymokUITests.swift; sourceTree = "<group>"; };
 		8425F24C21A6980600910388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8425F25821A698C500910388 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8425F25F21A6A17300910388 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8425F26121A6A22300910388 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		8425F26321A6E17C00910388 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		88A7570A3005A71DAA7B0DF1 /* Pods-inastaBraymok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inastaBraymok.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inastaBraymok/Pods-inastaBraymok.debug.xcconfig"; sourceTree = "<group>"; };
+		A579F72C75620634CBED0CF0 /* Pods-inastaBraymok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inastaBraymok.release.xcconfig"; path = "Pods/Target Support Files/Pods-inastaBraymok/Pods-inastaBraymok.release.xcconfig"; sourceTree = "<group>"; };
+		ABAB5867BCD1C1B117C81E30 /* Pods_inastaBraymokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inastaBraymokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DC47545A12216BB9FF23BC /* Pods-inastaBraymokTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inastaBraymokTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-inastaBraymokTests/Pods-inastaBraymokTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7CA7E604525DD1375049C67 /* Pods-inastaBraymokTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inastaBraymokTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inastaBraymokTests/Pods-inastaBraymokTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE7E9CA61AB06296C6EF1D5 /* Pods_inastaBraymok.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB810FF8CA8A4650728D179 /* Pods_inastaBraymokTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3611D64F18D4009B98B765 /* Pods_inastaBraymokUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DF989F307699DFECA27956F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22601CB83B4D2D271F6EE0DB /* Pods_inastaBraymok.framework */,
+				ABAB5867BCD1C1B117C81E30 /* Pods_inastaBraymokTests.framework */,
+				25E6D837B14B51D4E3341A76 /* Pods_inastaBraymokUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8425F21E21A6980400910388 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				8425F23E21A6980600910388 /* inastaBraymokTests */,
 				8425F24921A6980600910388 /* inastaBraymokUITests */,
 				8425F22821A6980400910388 /* Products */,
+				8651CE42142063BDEDEA7F99 /* Pods */,
+				4DF989F307699DFECA27956F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +134,17 @@
 		8425F22921A6980400910388 /* inastaBraymok */ = {
 			isa = PBXGroup;
 			children = (
+				8425F25A21A69E3000910388 /* Model */,
 				8425F22A21A6980400910388 /* AppDelegate.swift */,
 				8425F22C21A6980400910388 /* ViewController.swift */,
 				8425F22E21A6980400910388 /* Main.storyboard */,
 				8425F23121A6980600910388 /* Assets.xcassets */,
 				8425F23321A6980600910388 /* LaunchScreen.storyboard */,
 				8425F23621A6980600910388 /* Info.plist */,
+				8425F25821A698C500910388 /* GoogleService-Info.plist */,
+				8425F25F21A6A17300910388 /* ProfileVC.swift */,
+				8425F26121A6A22300910388 /* SignUpVC.swift */,
+				8425F26321A6E17C00910388 /* TabBarViewController.swift */,
 			);
 			path = inastaBraymok;
 			sourceTree = "<group>";
@@ -125,6 +167,27 @@
 			path = inastaBraymokUITests;
 			sourceTree = "<group>";
 		};
+		8425F25A21A69E3000910388 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840E0C1521A93DF300ECD8F8 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8651CE42142063BDEDEA7F99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88A7570A3005A71DAA7B0DF1 /* Pods-inastaBraymok.debug.xcconfig */,
+				A579F72C75620634CBED0CF0 /* Pods-inastaBraymok.release.xcconfig */,
+				C7CA7E604525DD1375049C67 /* Pods-inastaBraymokTests.debug.xcconfig */,
+				C0DC47545A12216BB9FF23BC /* Pods-inastaBraymokTests.release.xcconfig */,
+				349EF0109C47D5A2CB4E4696 /* Pods-inastaBraymokUITests.debug.xcconfig */,
+				4F79143BE4533A19F0050691 /* Pods-inastaBraymokUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8425F24F21A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymok" */;
 			buildPhases = (
+				0AB407F4E700B65EA17A3275 /* [CP] Check Pods Manifest.lock */,
 				8425F22321A6980400910388 /* Sources */,
 				8425F22421A6980400910388 /* Frameworks */,
 				8425F22521A6980400910388 /* Resources */,
+				9C7BAC554DA7AB6C2A9F4BC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8425F25221A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymokTests" */;
 			buildPhases = (
+				1148CC4F0B78E582DD64AF37 /* [CP] Check Pods Manifest.lock */,
 				8425F23721A6980600910388 /* Sources */,
 				8425F23821A6980600910388 /* Frameworks */,
 				8425F23921A6980600910388 /* Resources */,
@@ -167,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8425F25521A6980600910388 /* Build configuration list for PBXNativeTarget "inastaBraymokUITests" */;
 			buildPhases = (
+				BBFB048615330DBE9605E67B /* [CP] Check Pods Manifest.lock */,
 				8425F24221A6980600910388 /* Sources */,
 				8425F24321A6980600910388 /* Frameworks */,
 				8425F24421A6980600910388 /* Resources */,
@@ -230,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8425F23521A6980600910388 /* LaunchScreen.storyboard in Resources */,
+				8425F25921A698C500910388 /* GoogleService-Info.plist in Resources */,
 				8425F23221A6980600910388 /* Assets.xcassets in Resources */,
 				8425F23021A6980400910388 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +319,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AB407F4E700B65EA17A3275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inastaBraymok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1148CC4F0B78E582DD64AF37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inastaBraymokTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7BAC554DA7AB6C2A9F4BC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-inastaBraymok/Pods-inastaBraymok-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inastaBraymok/Pods-inastaBraymok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFB048615330DBE9605E67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inastaBraymokUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8425F22321A6980400910388 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8425F26221A6A22300910388 /* SignUpVC.swift in Sources */,
+				8425F26021A6A17300910388 /* ProfileVC.swift in Sources */,
+				840E0C1621A93DF300ECD8F8 /* User.swift in Sources */,
 				8425F22D21A6980400910388 /* ViewController.swift in Sources */,
+				8425F26421A6E17C00910388 /* TabBarViewController.swift in Sources */,
 				8425F22B21A6980400910388 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +601,7 @@
 		};
 		8425F25021A6980600910388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A7570A3005A71DAA7B0DF1 /* Pods-inastaBraymok.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,13 +612,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		8425F25121A6980600910388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A579F72C75620634CBED0CF0 /* Pods-inastaBraymok.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,13 +630,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stamina.inastaBraymok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		8425F25321A6980600910388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CA7E604525DD1375049C67 /* Pods-inastaBraymokTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +658,7 @@
 		};
 		8425F25421A6980600910388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DC47545A12216BB9FF23BC /* Pods-inastaBraymokTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +679,7 @@
 		};
 		8425F25621A6980600910388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349EF0109C47D5A2CB4E4696 /* Pods-inastaBraymokUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +699,7 @@
 		};
 		8425F25721A6980600910388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F79143BE4533A19F0050691 /* Pods-inastaBraymokUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

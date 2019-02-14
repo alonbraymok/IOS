@@ -1,0 +1,6 @@
+framework module Pods_inastaBraymok {
+  umbrella header "Pods-inastaBraymok-umbrella.h"
+
+  export *
+  module * { export * }
+}
